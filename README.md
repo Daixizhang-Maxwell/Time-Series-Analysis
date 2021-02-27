@@ -5,20 +5,17 @@ Import The module:
 
 In order to deal both simple and complex problems with time, the datetime module are consist of 5 different classes:
 
-date -- Manipulate [Month, Day, Year]
-
-Time -- Manipulate [Hour, Minute, Second, Microsecond]
-
-Datetime -- Manipulate [Month, Day, Year, Hour, Minute, Second, Microsecond]
-
-Timedelta --The changes between two datetime object
-
-Tzinfo -- an abstract class that deals with timezone
+            date -- Manipulate [Month, Day, Year]
+            Time -- Manipulate [Hour, Minute, Second, Microsecond]
+            Datetime -- Manipulate [Month, Day, Year, Hour, Minute, Second, Microsecond]
+            Timedelta --The changes between two datetime object
+            Tzinfo -- an abstract class that deals with timezone
 
 How can you call the different classes listed above? There are two ways:
-from datetime import datetime / date / time
-Import datetime as dt
-A_instance = dt.datetime() / dt.date() ...
+
+            1. from datetime import datetime / date / time
+            2. Import datetime as dt
+               A_instance = dt.datetime() / dt.date() ...
 
 Create Datetime object:
 
@@ -34,21 +31,15 @@ There are basic two ways to create a datetimem object: 1. Create datetime object
             d. MM-YY-DD   Dec-18-1  ….
 
          
-            Thus how can we deal with such complexity? The solution is using representing symbols:
- 
+Thus how can we deal with such complexity? The solution is using representing symbols:
 
+Symbol Representation (for more please refer to https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior):
 
-Symbol Representation:
-Year:  %Y  4-digit year: 2020; %y 2-digit year: 20
-
-Month: %B Month in English, complete way: December; %b Month in English, short way: Dec; %m Month in number: 12
-
-Day: %d Day in number: 01-31; 
-
-Hour: %H Hour in number: 0-23;
-
-Second: %S Seconds in number: 00-59;
-
-Microseconds: %f Microsecond in number: 000000-999999;
+            Year:  %Y  4-digit year: 2020; %y 2-digit year: 20
+            Month: %B Month in English, complete way: December; %b Month in English, short way: Dec; %m Month in number: 12
+            Day: %d Day in number: 01-31; 
+            Hour: %H Hour in number: 0-23;
+            Second: %S Seconds in number: 00-59;
+            Microseconds: %f Microsecond in number: 000000-999999;
 
 
