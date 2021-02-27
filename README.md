@@ -6,9 +6,13 @@ Import The module:
 In order to deal both simple and complex problems with time, the datetime module are consist of 5 different classes:
 
 date -- Manipulate [Month, Day, Year]
+
 Time -- Manipulate [Hour, Minute, Second, Microsecond]
+
 Datetime -- Manipulate [Month, Day, Year, Hour, Minute, Second, Microsecond]
+
 Timedelta --The changes between two datetime object
+
 Tzinfo -- an abstract class that deals with timezone
 
 How can you call the different classes listed above? There are two ways:
