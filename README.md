@@ -36,7 +36,7 @@ There are basic two ways to create a datetimem object: 1. Create datetime object
 Thus how can we deal with such complexity? The solution is using representing symbols and the following two method:
 
              strftime(format)  -- from datetime object to string
-             datetime.strptime() -- from a string to a datetime object a corresponding format string.
+             datetime.strptime() -- from a string to a datetime object with a corresponding format string.
 
 Symbol Representation (for more please refer to https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior):
 
@@ -47,6 +47,6 @@ Symbol Representation (for more please refer to https://docs.python.org/3/librar
             Second: %S Seconds in number: 00-59;
             Microseconds: %f Microsecond in number: 000000-999999;
           
-          
+## Pandas & Datetime object
 
 
