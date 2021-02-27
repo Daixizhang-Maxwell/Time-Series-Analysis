@@ -1,7 +1,7 @@
 # Time-Series-Analysis
 Date time object is not a builtin datatype for python, instead we need to import a module called “datetime” in order to use it. By employing this module, we will  make many different methods and attributes for the datetime object available for us.
 
-Import The module:
+<mark>Import The module:</mark>
 
 In order to deal both simple and complex problems with time, the datetime module are consist of 5 different classes:
 
