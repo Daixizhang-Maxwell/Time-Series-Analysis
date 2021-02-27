@@ -35,8 +35,14 @@ There are basic two ways to create a datetimem object: 1. Create datetime object
          
 Thus how can we deal with such complexity? The solution is using representing symbols and the following two method:
 
-             strftime(format)  -- from datetime object to string
-             datetime.strptime() -- from a string to a datetime object with a corresponding format string.
+|                | strftime                                               | strptime                                                           |
+|----------------|--------------------------------------------------------|--------------------------------------------------------------------|
+| Usage          | Convert object to a string according to a given format | Parse a string into a datetime object given a corresponding format |
+| Type of method | Instance method                                        | Class method                                                       |
+| Method of      | date; datetime; time                                   | datetime                                                           |
+| Signature      | strftime(format)                                       | strptime(date_string, format)                                      |
+
+source of table: https://docs.python.org/3/library/datetime.html#datetime.date.replace
 
 Symbol Representation (for more please refer to https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior):
 
