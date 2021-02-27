@@ -22,11 +22,11 @@ A_instance = dt.datetime() / dt.date() ...
 
 Create Datetime object:
 
-There are basic two ways to create datetime: 1. Create datetime object by using then datetime module and classes; 2. Convert strings and other forms of record of datetime to datetime object
+There are basic two ways to create a datetimem object: 1. Create datetime object by using then datetime module and classes; 2. Convert strings and other forms of record of datetime to datetime object
 
-Date1 = dt.datetime(1999,1,1,1,1, 1)
+1. Date1 = dt.datetime(1999,1,1,1,1, 1)
 
-This one is a bit tricker because we are not sure about the format of the string. By format I mean how different time component are managed within the string, for example:
+2. This one is a bit tricker because we are not sure about the format of the string. By format I mean how different time component are managed within the string, for example:
 
             a. YYYY-MM-DD  2018-12-1
             b. YYYY/MM/DD   2018/12/1
@@ -38,31 +38,17 @@ This one is a bit tricker because we are not sure about the format of the string
  
 
 
-Symbol
-Representation
-Year 
-%Y
-4-digit year: 2020
-%y
-2-digit year: 20
-Month
-%B
-Month in English, complete way: December
-%b
-Month in English, short way: Dec
-%m
-Month in number: 12
-Day
-%d
-Day in number: 01-31
-Hour
-%H
-Hour in number: 0-23
-Second
-%S
-Seconds in number: 00-59
-Microseconds
-%f
-Microsecond in number: 000000-999999
+Symbol Representation:
+Year:  %Y  4-digit year: 2020; %y 2-digit year: 20
+
+Month: %B Month in English, complete way: December; %b Month in English, short way: Dec; %m Month in number: 12
+
+Day: %d Day in number: 01-31; 
+
+Hour: %H Hour in number: 0-23;
+
+Second: %S Seconds in number: 00-59;
+
+Microseconds: %f Microsecond in number: 000000-999999;
 
 
