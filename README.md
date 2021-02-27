@@ -52,20 +52,19 @@ Symbol Representation (for more please refer to https://docs.python.org/3/librar
 ####  Use and Manipulate Datetime object:
 
 In this section I would the key attribute and methods of Datetime object and how could we play around with them：
-| **Attributes ** | **Methods** |
-| Instance Attributes  | ------------- |
-| year, month, day, hour, minute, second, and microsecond  | Content Cell  |
-| tzinfo  | Content Cell  |
-| fold | Content Cell  |
-|   | Content Cell  |
-| Class Attributes | Content Cell  |
-| resolution  | Content Cell  |
-| min [01Jan01-00:00:00  - the minimum Gregorian proleptic Date.] | Content Cell  |
-| max [31Dec9999-24:59:59-999999: the maximum Gregorian proleptic date]  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|                                                              Attributes                                                               |       Methods       | Method Function |
+|:-------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:---------------:|
+| Instance Attributes                                                                                                                   | dt.date.replace()   |                 |
+| year, month, day, hour, minute, second, and microsecond                                                                               | dt.date.isoformat() |                 |
+| tzinfo                                                                                                                                | dt.date.today()     |                 |
+| fold                                                                                                                                  | dt.date.now()       |                 |
+| Class Attributes                                                                                                                      |                     |                 |
+| resolution                                                                                                                            |                     |                 |
+| min [01Jan01-00:00:00  - the minimum Gregorian proleptic Date.] max [31Dec9999-24:59:59-999999: the maximum Gregorian proleptic date] |                     |                 |
+|                                                                                                                                       |                     |                 |
+|                                                                                                                                       |                     |                 |
+|                                                                                                                                       |                     |                 |
+|                                                                                                                                       |                     |                 |
 
 ## Pandas & Datetime object
 
