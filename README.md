@@ -46,6 +46,8 @@ Symbol Representation (for more please refer to https://docs.python.org/3/librar
             Hour: %H Hour in number: 0-23;
             Second: %S Seconds in number: 00-59;
             Microseconds: %f Microsecond in number: 000000-999999;
+            
+            Example: Date2 = dt.datetime.strptime("2020-18-10", "%Y-%d-%m")
           
 ## Pandas & Datetime object
 
