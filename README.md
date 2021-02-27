@@ -1,7 +1,9 @@
 # Time-Series-Analysis
 Date time object is not a builtin datatype for python, instead we need to import a module called “datetime” in order to use it. By employing this module, we will  make many different methods and attributes for the datetime object available for us.
 
-## Import The module:
+## Basic Datetime object
+
+#### Import The module:
 
 In order to deal both simple and complex problems with time, the datetime module are consist of 5 different classes:
 
@@ -17,7 +19,7 @@ How can you call the different classes listed above? There are two ways:
             2. Import datetime as dt
                A_instance = dt.datetime() / dt.date() ...
 
-Create Datetime object:
+####  Create Datetime object:
 
 There are basic two ways to create a datetimem object: 1. Create datetime object by using then datetime module and classes; 2. Convert strings and other forms of record of datetime to datetime object
 
@@ -31,7 +33,10 @@ There are basic two ways to create a datetimem object: 1. Create datetime object
             d. MM-YY-DD   Dec-18-1  ….
 
          
-Thus how can we deal with such complexity? The solution is using representing symbols:
+Thus how can we deal with such complexity? The solution is using representing symbols and the following two method:
+
+             strftime(format)  -- from datetime object to string
+             datetime.strptime() -- from a string to a datetime object a corresponding format string.
 
 Symbol Representation (for more please refer to https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior):
 
@@ -41,5 +46,7 @@ Symbol Representation (for more please refer to https://docs.python.org/3/librar
             Hour: %H Hour in number: 0-23;
             Second: %S Seconds in number: 00-59;
             Microseconds: %f Microsecond in number: 000000-999999;
+          
+          
 
 
