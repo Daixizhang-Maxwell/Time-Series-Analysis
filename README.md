@@ -48,7 +48,11 @@ Symbol Representation (for more please refer to https://docs.python.org/3/librar
             Microseconds: %f Microsecond in number: 000000-999999;
             
             Example: Date2 = dt.datetime.strptime("2020-18-10", "%Y-%d-%m")
-          
+
+####  Use and Manipulate Datetime object:
+
+In this section I would the key attribute and methods of Datetime object and how could we play around with them：
+
 ## Pandas & Datetime object
 
 
