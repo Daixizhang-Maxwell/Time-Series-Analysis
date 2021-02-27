@@ -52,6 +52,10 @@ Symbol Representation (for more please refer to https://docs.python.org/3/librar
 ####  Use and Manipulate Datetime object:
 
 In this section I would the key attribute and methods of Datetime object and how could we play around with them：
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Pandas & Datetime object
 
