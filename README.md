@@ -50,7 +50,7 @@ Symbol Representation (for more please refer to https://docs.python.org/3/librar
             Example: Date2 = dt.datetime.strptime("2020-18-10", "%Y-%d-%m")
 
 ####  Use and Manipulate Datetime object:
-
+Create Markdown table using: https://www.tablesgenerator.com/markdown_tables#
 In this section I would the key attribute and methods of Datetime object and how could we play around with them：
 |                                                              Attributes                                                               |       Methods       | Method Function |
 |:-------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:---------------:|
